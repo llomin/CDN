@@ -8,7 +8,7 @@ var index_img_dom = document.querySelector(".full_page")
  
 if (index_img_dom) {
     let index_img = index_imgs[Math.floor(Math.random() * index_imgs.length)]
-    index_img_dom.style.backgroundImage = "url(" + index_img + ")"
+    index_img_dom.style.backgroundImage = "url(" + index_img + ")" 
     let footer_dom = document.querySelector("#footer")
     footer_dom.style.backgroundImage = "url(" + index_img + ")"
 }
