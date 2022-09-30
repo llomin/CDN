@@ -5,4 +5,4 @@ const index_imgs = [
 ]
 
 var index_img = index_imgs[Math.floor(Math.random() * index_imgs.length)]
-document.getElementsByClassName("full_page").style.backgroundImage = "url(" + index_img + ")"
+document.querySelector(".full_page").style.backgroundImage = "url(" + index_img + ")"
