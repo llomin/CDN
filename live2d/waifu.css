@@ -1,25 +1,19 @@
 #waifu-toggle {
   background-color: #fa0;
   border-radius: 5px;
-  bottom: 180px;
   color: #fff;
   cursor: pointer;
   font-size: 12px;
-  right: 0;
-  margin-right: -100px;
-  padding: 5px 5px 5px 4px;
+  bottom: -18px;
+  right: 150px;
+  padding: 0px 5px;
+  width: fit-content;
   position: fixed;
-  transition: margin-right 1s;
-  width: 60px;
-  writing-mode: vertical-lr;
-}
-
-#waifu-toggle.waifu-toggle-active {
-  margin-right: -50px;
+  transition: bottom 1s;
 }
 
 #waifu-toggle.waifu-toggle-active:hover {
-  margin-right: -30px;
+  bottom: 0px;
 }
 
 #waifu {
