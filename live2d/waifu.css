@@ -12,6 +12,10 @@
   transition: bottom 1s;
 }
 
+#waifu-toggle.waifu-toggle-active {
+  bottom: -18px;
+}
+
 #waifu-toggle.waifu-toggle-active:hover {
   bottom: 0px;
 }
