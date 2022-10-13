@@ -1,4 +1,4 @@
-const cdn_path = "https://cdn.jsdelivr.net/gh/llomin/CDN/live2d/"
+const cdn_path = "https://cdn.jsdelivr.net/gh/llomin/CDN@main/live2d/"
 
 // 封装异步加载资源的方法
 function loadExternalResource (url, type) {
